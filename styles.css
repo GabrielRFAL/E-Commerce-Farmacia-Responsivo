@@ -1,0 +1,265 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #00d7d7;
+    color: white;
+    display: block;
+    flex-direction: column;
+    gap: 5px;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    padding: 2px;   
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.navigation {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.navegacao {
+    background-color: #00d7d7;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    top: 0;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    position: sticky;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.navegacao ul {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu_list {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+.textofarma {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.mural {
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    border-radius: 20px;
+    background-color: #00d7d7;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+}
+
+.mensagem {
+    text-align: center;
+}
+
+.cards_navegacao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0px 60px 80px;
+}
+
+.grupo {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 115, 206, .1);
+    border: 2px solid #0073ce;
+    border-radius: 8px;
+    height: 80px;
+    width: 150px;
+    justify-content: center;
+}
+
+.icon_img {
+    height: 30px;
+    width: 30px;
+}
+
+.blocos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.medicamentos {
+    padding: 0px 68px 86px;
+}
+
+.vitaminas {
+    padding: 0px 68px 86px;
+}
+
+.higiene {
+    padding: 0px 68px 86px;
+}
+
+.infantis {
+    padding: 0px 68px 86px;
+}
+
+.beleza {
+    padding: 0px 68px 86px;
+}
+
+.titulos {
+    color: #002440;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.grupo_medicamentos {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_medicamentos:hover {
+    transform: translateY(-5px);
+}
+
+.grupo_vitaminas {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_vitaminas:hover {
+    transform: translateY(-5px);
+}
+
+.grupo_higiene {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_higiene:hover {
+    transform: translateY(-5px);
+}
+
+.grupo_infantis {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_infantis:hover {
+    transform: translateY(-5px);
+}
+
+.grupo_beleza {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .2), -2px 0 4px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px 16px 20px;
+    height: 320px;
+    width: 200px;
+    text-align: center;
+}
+
+.grupo_beleza:hover {
+    transform: translateY(-5px);
+}
+
+.precos {
+    color: #002440;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.texto_produtos {
+    color: #002440;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.icon_produtos {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 32px;
+}
+
+.comprar {
+    background-color: orangered;
+    font-size: 15px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    transform: scale(1.1);
+}
