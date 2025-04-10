@@ -52,6 +52,32 @@ footer h3 {
     list-style: none;
 }
 
+.menu-hamburger {
+    display: none; 
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu_list {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        background-color: #00d7d7;
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+    .menu-hamburger {
+        display: block; 
+    }
+
+    .menu_list.active {
+        display: flex; 
+    }
+}
+
 .textofarma {
     font-size: 25px;
     color: black;
