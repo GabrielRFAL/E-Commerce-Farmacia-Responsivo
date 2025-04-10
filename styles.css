@@ -48,7 +48,7 @@ footer h3 {
 
 .menu_list {
     display: flex;
-    gap: 8px;
+    gap: 20px;
     list-style: none;
 }
 
@@ -63,7 +63,7 @@ footer h3 {
         flex-direction: column;
         position: absolute;
         background-color: #00d7d7;
-        top: 60px; 
+        top: 50px; 
         left: 0;
         width: 100%;
         border: 1px solid #ccc;
@@ -131,7 +131,8 @@ footer h3 {
 
 .blocos {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .medicamentos {
@@ -174,6 +175,9 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
+    margin: 10px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
 }
 
 .grupo_medicamentos:hover {
@@ -193,6 +197,9 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
+    margin: 10px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
 }
 
 .grupo_vitaminas:hover {
@@ -212,6 +219,9 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
+    margin: 10px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
 }
 
 .grupo_higiene:hover {
@@ -231,6 +241,9 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
+    margin: 10px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
 }
 
 .grupo_infantis:hover {
@@ -250,10 +263,20 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
+    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
+    margin: 10px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
 }
 
 .grupo_beleza:hover {
     transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .grupo_medicamentos, .grupo_vitaminas, .grupo_higiene, .grupo_infantis, .grupo_beleza {
+        flex: 1 1 100%; /* Cada card ocupa 100% da largura */
+        margin: 0; /* Remove o espaçamento entre os cards */
+    }
 }
 
 .precos {
@@ -271,8 +294,8 @@ footer h3 {
 }
 
 .icon_produtos {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 32px;
 }
 
