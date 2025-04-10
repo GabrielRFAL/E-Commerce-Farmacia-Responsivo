@@ -74,7 +74,7 @@ footer h3 {
     }
 
     .menu_list.active {
-        display: flex; 
+        display: none; 
     }
 }
 
@@ -175,8 +175,8 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
-    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
-    margin: 10px; /* Espaçamento entre os cards */
+    flex: 1 1 30%;
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -197,8 +197,8 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
-    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
-    margin: 10px; /* Espaçamento entre os cards */
+    flex: 1 1 30%;
+    margin: 10px; 
     box-sizing: border-box;
 }
 
@@ -219,8 +219,8 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
-    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
-    margin: 10px; /* Espaçamento entre os cards */
+    flex: 1 1 30%; 
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -241,8 +241,8 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
-    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
-    margin: 10px; /* Espaçamento entre os cards */
+    flex: 1 1 30%; 
+    margin: 10px; 
     box-sizing: border-box;
 }
 
@@ -263,8 +263,8 @@ footer h3 {
     height: 320px;
     width: 200px;
     text-align: center;
-    flex: 1 1 30%; /* Tamanho padrão para telas maiores */
-    margin: 10px; /* Espaçamento entre os cards */
+    flex: 1 1 30%; 
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -274,8 +274,9 @@ footer h3 {
 
 @media (max-width: 768px) {
     .grupo_medicamentos, .grupo_vitaminas, .grupo_higiene, .grupo_infantis, .grupo_beleza {
-        flex: 1 1 100%; /* Cada card ocupa 100% da largura */
-        margin: 0; /* Remove o espaçamento entre os cards */
+        flex: 1 1 100%; 
+        margin: 0; 
+        margin-bottom: 20px;
     }
 }
 
