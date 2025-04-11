@@ -39,14 +39,17 @@ footer h3 {
     z-index: 1;
 }
 
-.navegacao ul {
+.menu_list {
+    display: none;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu_list_hamburger {
     text-decoration: none;
     align-items: center;
     display: flex;
     cursor: pointer;
-}
-
-.menu_list {
     display: flex;
     gap: 20px;
     list-style: none;
@@ -73,8 +76,16 @@ footer h3 {
         display: block; 
     }
 
+    .menu_list_hamburger {
+        display: none;
+    }
+
     .menu_list.active {
-        display: none; 
+        display: flex; 
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
     }
 }
 
